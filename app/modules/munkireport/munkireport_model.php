@@ -15,6 +15,9 @@ class Munkireport_model extends Model {
 		$this->rs['errors'] = 0;
 		$this->rs['warnings'] = 0;
 		$this->rs['manifestname'] = '';
+		$this->rs['catalogs'] = '';
+		$this->rs['included_manifests'] = '';
+		$this->rs['sus_server'] = '';
 		$this->rs['managedinstalls'] = 0; // Total packages
 		$this->rs['pendinginstalls'] = 0; // To be installed
 		$this->rs['installresults'] = 0; // Installed
@@ -41,6 +44,9 @@ class Munkireport_model extends Model {
 		$this->idx[] = array('pendingremovals');
 		$this->idx[] = array('itemstoinstall');
 		$this->idx[] = array('appleupdates');
+		$this->idx[] = array('catalogs');
+		$this->idx[] = array('included_manifests');
+		$this->idx[] = array('sus_server');
 		
 		// Schema version, increment when creating a db migration
 		$this->schema_version = 2;

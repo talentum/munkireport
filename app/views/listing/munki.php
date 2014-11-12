@@ -4,6 +4,7 @@
 new Machine_model;
 new Reportdata_model;
 new Munkireport_model;
+new munkiextra_model;
 ?>
 
 <div class="container">
@@ -140,6 +141,8 @@ new Munkireport_model;
 		        <th data-hide="1" data-colname='munkireport#removalresults'>Removed</th>
 		        <th data-hide="1" data-colname='munkireport#pendingremovals'>Removed</th>
 				<th data-colname='munkireport#manifestname'>Manifest</th>
+				<th data-colname='munkireport#catalogs'>Catalogs</th>
+				<th data-colname='munkireport#sus_server'>SUS Server</th>
 		      </tr>
 		    </thead>
 		    <tbody>

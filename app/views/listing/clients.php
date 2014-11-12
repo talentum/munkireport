@@ -6,6 +6,7 @@ new Warranty_model;
 new Disk_report_model;
 new Reportdata_model;
 new Munkireport_model;
+new Munkiextra_model;
 ?>
 
 <div class="container">
@@ -69,6 +70,8 @@ new Munkireport_model;
 	        <th data-colname='diskreport#Percentage'>Disk</th>
 	        <th data-colname='reportdata#timestamp'>Check-in</th>
 			<th data-colname='munkireport#manifestname'>Manifest</th>
+			<th data-colname='munkireport#catalogs'>Catalogs</th>
+			<th data-colname='munkireport#sus_server'>SUS Server</th>
 	      </tr>
 	    </thead>
 	    

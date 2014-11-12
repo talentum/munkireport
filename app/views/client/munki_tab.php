@@ -42,6 +42,14 @@
 				<td><?=$client->manifestname?></td>
 			</tr>
 			<tr>
+				<th>Included Manifests:</th>
+				<td><?=$client->included_manifests?></td>
+			</tr>
+			 <tr>
+                <th>Catalog:</th>
+                <td><?=$client->catalogs?></td>
+	        </tr>
+			<tr>
 				<th>Run Type:</th>
 				<td><?=$client->runtype?></td>
 			</tr>
@@ -53,6 +61,10 @@
 				<?$duration = strtotime($client->endtime) - strtotime($client->starttime);?>
 				<th>Duration:</th>
 				<td><?=$duration?> seconds</td>
+			</tr>
+			<tr>
+				<th>SUS Server:</th>
+				<td><?=$client->sus_server?></td>
 			</tr>
 		</table>
 

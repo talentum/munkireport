@@ -16,6 +16,8 @@
 
     <?$this->view('widgets/manifests_widget')?>
     
+    <?$this->view('widgets/catalogs_widget')?>
+    
     <?$this->view('widgets/munki_versions_widget')?>
 
   </div> <!-- /row -->
